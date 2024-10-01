@@ -1,0 +1,13 @@
+$primary:							    #df314d;
+$theme-1: 							  #210053;
+$theme-2: 							  #31135b;
+$gray-800:							    $theme-2;
+//$enable-shadows: 					true;
+$prefix: 							      "mo-";
+$light-bg-subtle-dark:      $gray-800 !default;
+
+$body-bg-theme-1:				    $theme-1 !default;
+$body-bg-theme-2:			      $theme-2 !default;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap-icons/font/bootstrap-icons";

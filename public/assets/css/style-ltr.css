@@ -1,0 +1,197 @@
+/* CSS Document */
+.right {
+  float: right;
+}
+
+#header .end-side {
+  right: 2rem;
+}
+
+#mm-blocker {
+  left: 0;
+}
+
+.hamburger, .mm-menu {
+  left: 0;
+}
+
+.sort-by {
+  float: right;
+}
+
+.header-widget {
+  float: left;
+}
+
+.fullwidth .header-widget:last-of-type {
+  float: right;
+}
+
+.header-notifications-dropdown {
+  right: -15px;
+}
+
+.header-notifications-dropdown:before {
+  right: 35px;
+}
+
+.user-menu .header-notifications-dropdown {
+  right: -10px;
+}
+.user-menu .header-notifications-dropdown::before {
+  right: 20px;
+}
+
+.stickyDiv .close, .editInfo {
+  float: right;
+}
+
+.deleteImg {
+  right: 0;
+}
+
+.close_btn {
+  right: 0;
+}
+
+[type=checkbox] + label:before,
+[type=checkbox]:not(.filled-in) + label:after {
+  left: 0;
+}
+
+[type=checkbox]:checked + label:before {
+  left: -5px;
+}
+
+.list-4 li:before,
+.list-3 li:before,
+.list-2 li:before,
+.list-1 li:before {
+  float: left;
+}
+
+.verify {
+  right: 1rem;
+}
+
+.balloon {
+  left: 25px;
+}
+
+#navigation ul li ul {
+  left: 9px;
+}
+#navigation ul ul ul {
+  left: 100%;
+}
+#navigation ul ul ul:after {
+  left: -15px;
+}
+#navigation ul ul ul:before {
+  left: -15px;
+}
+#navigation ul ul::before {
+  left: 0;
+}
+#navigation ul ul::after {
+  left: 25px;
+}
+
+#navigation ul ul.dropdown-nav ul.dropdown-nav li a:after, #navigation ul ul.dropdown-nav li a:after {
+  left: auto;
+  right: 1rem;
+}
+
+nav ul li > a > span.badge {
+  right: 12px;
+}
+
+nav ul li > a > span#activity_count {
+  right: 30px;
+}
+
+ul.mm-listview li > a > .badge {
+  right: 1rem;
+}
+
+.dashboard-nav ul li a::after {
+  right: 1rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: 0;
+}
+
+.dropdown-menu-end[data-bs-popper] {
+  left: auto;
+  right: 0;
+}
+
+/* LTR only */
+html.mm-opening .mm-menu.mm-opened ~ .mm-slideout {
+  -webkit-transform: translate(80%, 0);
+  -ms-transform: translate(80%, 0);
+  transform: translate(80%, 0);
+  -webkit-transform: translate3d(80%, 0, 0);
+  transform: translate3d(80%, 0, 0);
+}
+
+.mm-next:after {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  right: 23px;
+  left: auto;
+}
+
+@media all and (min-width: 550px) {
+  html.mm-opening .mm-menu.mm-opened ~ .mm-slideout {
+    -webkit-transform: translate(440px, 0);
+    -ms-transform: translate(440px, 0);
+    transform: translate(440px, 0);
+    -webkit-transform: translate3d(440px, 0, 0);
+    transform: translate3d(440px, 0, 0);
+  }
+}
+@media (max-width: 991.98px) {
+  #header .end-side {
+    right: 1rem;
+  }
+  .header-widget {
+    float: left;
+  }
+  .fullwidth .header-widget:last-of-type,
+  .header-widget:last-of-type {
+    float: left;
+  }
+  .mmenu-trigger {
+    float: right;
+  }
+}
+@media (max-width: 768px) {
+  .freelancer {
+    margin: 0 20px 20px 0;
+  }
+  .user-menu .header-notifications-dropdown,
+  .header-notifications-dropdown {
+    right: -10px;
+  }
+  .notify-box .sort-by {
+    right: 0;
+  }
+  .notify-box .sort-by .bootstrap-select .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+}
+.total-coin a {
+  right: -0.5rem;
+}
+
+.sidebar-collapse .listMenu .text-only {
+  left: 100%;
+}
+.sidebar-collapse .listMenu .text-only::before {
+  content: "";
+  left: -4px;
+}/*# sourceMappingURL=style-ltr.css.map */

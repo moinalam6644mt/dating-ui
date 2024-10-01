@@ -1,0 +1,224 @@
+/* CSS Document */
+@media only screen and (min-width: 601px) {
+  .profiles figure .responsive-img {
+    width: 100%;
+  }
+  ul.criteria li {
+    float: left;
+    width: 33.333%;
+  }
+  /*ul.criteria li:nth-child(1) {
+  	width:30%;
+  }
+  ul.criteria li:nth-child(2) {
+  	width:30%;
+  }*/
+  nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    line-height: 44px;
+    height: 44px;
+  }
+  /*nav {
+  	line-height: 44px;	
+  }*/
+  .banner-wrapper {
+    position: absolute;
+  }
+  .testimonial .user {
+    height: 160px;
+    width: 160px;
+  }
+  .allUser .user {
+    min-height: 150px;
+  }
+  .allUser .user > img, .slide_gallery .carousel-item > img {
+    min-height: 137px;
+  }
+}
+.s5ths,
+.m5ths,
+.l5ths,
+.xl5ths {
+  margin-inline-start: auto;
+  left: auto;
+  right: auto;
+}
+
+/*
+.row .col.s5ths {
+  width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  .row .col.m5ths {
+    width: 20%;
+  }
+}
+*/
+/*
+@media only screen and (min-width: 1201px) {
+  .row .col.xl5ths {
+    width: 20%;
+  }
+}
+*/
+@media only screen and (max-width: 992px) {
+  .fb {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /*ul.list-info li {
+  	-ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+  ul.list-info li b {
+  	display: inline-block;
+      min-width: 40%;
+  }
+  */
+}
+@media only screen and (min-width: 768px) {
+  .effect-from-s .checkbox, .effect-from-s .form-check {
+    float: left;
+    width: 33.33333%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .row .col.xl5ths {
+    width: 20%;
+  }
+  h2.title {
+    font-size: 3rem;
+  }
+  .banner_caption {
+    font-size: 4rem;
+    line-height: 4.25rem;
+  }
+  #toast-container {
+    top: 10%;
+    right: 10%;
+    width: 80%;
+  }
+  .toast {
+    width: 100%;
+  }
+  .address-item {
+    min-height: 175px;
+  }
+  ul.gallery li {
+    width: 24.99%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .dashboard-sidebar {
+    flex: 0 0 300px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  nav ul li > a > span.badge {
+    top: 15px;
+  }
+  nav ul li > a > span.badge#activity_count {
+    top: 15px;
+  }
+  #logo {
+    border: none;
+  }
+  .balloon {
+    display: none;
+  }
+  #header {
+    height: 64px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .profileCard .media-body .btn {
+    margin-bottom: 0.5rem;
+    margin-right: 0.25rem;
+  }
+  .stickyDiv {
+    position: relative;
+    width: 100%;
+  }
+  .d-none-sm {
+    display: none !important;
+  }
+  .membership .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .membership .btn-group .btn {
+    margin: 0 0 1rem !important;
+  }
+  .travel-date {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .freelancer {
+    width: calc(50% - 20px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav .brand-logo > img {
+    display: block;
+    height: 36px;
+  }
+  .banner_caption {
+    font-size: 1.75rem;
+    line-height: normal;
+    margin-top: 20px !important;
+  }
+  .testimonial .user {
+    height: 120px;
+    width: 120px;
+  }
+  .banner-wrapper {
+    position: relative;
+  }
+  ul.gallery li {
+    width: 50%;
+  }
+  ul.criteria li {
+    float: left;
+    width: 50%;
+  }
+  .allUser .user > img {
+    max-height: 167px;
+  }
+  .address-item {
+    margin-bottom: 20px;
+  }
+  .address .col:last-child .address-item {
+    margin-bottom: 0;
+  }
+  .user .avatar {
+    max-width: 100px;
+    max-height: 100px;
+    border: 3px solid #ddd;
+  }
+  .profileCard .media {
+    display: block;
+    text-align: center;
+  }
+  .profileCard .media .mr-4 {
+    margin-right: 0 !important;
+  }
+  .profileCard .text-right {
+    text-align: center !important;
+  }
+  .nav-tabs {
+    flex-wrap: inherit;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 43px;
+  }
+  #logo img {
+    max-width: 150px;
+    height: auto;
+  }
+}
+/* END CSS *//*# sourceMappingURL=_responsive.css.map */

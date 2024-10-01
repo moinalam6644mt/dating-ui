@@ -1,0 +1,9 @@
+.collapsible-body {
+    display: none;
+    transition: height 0.3s ease;
+  }
+  
+  .collapsible-body.show {
+    display: block;
+  }
+  

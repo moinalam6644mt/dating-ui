@@ -1,0 +1,44 @@
+/* StoryPage.css */
+.owl-theme .owl-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-theme .owl-nav button[class*=owl-]{
+    background-color: #fff; /* Example background color */
+    color: #df314d; /* Example text color */
+    border: 1px solid #ddd;
+    border-radius: 50%; /* Round buttons */
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Ensure buttons are above other content */    
+  }
+  .owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #df314d;
+    border-color: #df314d;
+    color: #fff;
+  }
+  .owl-prev span, .owl-next span{
+    display: none;
+  }
+  .owl-prev {
+    left: 10px; /* Adjust position from left */
+  }
+  
+  .owl-next {
+    right: 10px; /* Adjust position from right */
+  }
+  
+  .owl-prev::before, .owl-next::before {
+    font-family: "FontAwesome";
+    font-family: 'bootstrap-icons' !important;
+    content: "\f59d"; /* Example FontAwesome icon for left arrow */
+  }
+  
+  .owl-next::before {
+    content: "\f59d"; /* Example FontAwesome icon for right arrow */
+  }
+  

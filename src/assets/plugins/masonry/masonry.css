@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.grid {
+	max-width: 1280px;
+	list-style: none;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 0;
+}
+.grid li {
+	display: block;
+	float: left;
+	/*width: 25%;*/
+	opacity: 0;
+}
+.grid li.shown,
+.no-js .grid li,
+.no-cssanimations .grid li {
+	opacity: 1;
+}
+.grid li a,
+.grid li img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+
+/* Effect 1: opacity */
+.grid.effect-1 li.animate {
+	-webkit-animation: fadeIn 0.65s ease forwards;
+	animation: fadeIn 0.65s ease forwards;
+}
+@-webkit-keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+

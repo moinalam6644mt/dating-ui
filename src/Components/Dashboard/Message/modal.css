@@ -1,0 +1,9 @@
+ .modal-scrollable {
+max-height: 500px; /* Adjust the height according to your preference */
+overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+.modal-scrollable2  {
+    max-height: 300px; /* Adjust the height according to your preference */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    }
